@@ -1,47 +1,62 @@
-# ⚽ FIFA World Cup Data Analysis Dashboard
+# ⚽ FIFA World Cup Power BI Dashboard Analysis
 
-This project presents an interactive Power BI dashboard developed using historical FIFA World Cup datasets. It highlights key statistics, trends, and insights related to World Cup matches, players, and tournaments from 1930 to 2014. The dashboard was built as part of my internship at Unified Mentor.
+This project explores FIFA World Cup data using two interactive dashboards developed in Power BI. The analysis focuses on match goals, team performance, stadium statistics, and overall tournament trends.
 
 ## 📁 Datasets Used
 
-1. **WorldCups.csv** – Contains tournament-level information such as year, host country, winner, runner-up, and attendance.
-2. **WorldCupMatches.csv** – Includes details of each match like team names, goals scored, stadium, and city.
-3. **WorldCupPlayers.csv** – Consists of player-level information, including player names, positions, and team details.
+- `WorldCupMatches.csv` – Contains match-level details (teams, goals, stadiums, years, etc.)
+- `WorldCups.csv` – Summarises each tournament’s overall data (winners, attendance, etc.)
+- `WorldCupPlayers.csv` – Contains information on players and participation
 
-## 🔧 Tools & Technologies
+## 🛠️ Tools Used
 
-- **Power BI** – For data modelling, transformations, and visualisations
-- **Microsoft Excel** – For initial data cleaning and formatting
-- **DAX & Power Query** – Used for measures, calculated columns, and data transformation
+- Power BI Desktop
+- Power Query Editor
+- DAX (Data Analysis Expressions)
 
-## 📊 Key Features & Insights
+---
 
-- Total goals scored by year and by team  
-- Top 10 stadiums where most matches were played (with filter >10 matches)  
-- Most successful teams (based on wins and titles)  
-- Match distribution by continent and country  
-- Average attendance per tournament  
-- Goal distribution by home and away teams  
-- Player analysis by position, participation, and appearances  
+## 📊 Dashboard 1: **Team Performance Dashboard**
 
-## 🧠 Skills Demonstrated
+This dashboard provides a deep dive into the performance of home and away teams across different FIFA World Cup matches. It includes:
 
-- Data cleaning and modelling  
-- KPI creation and use of slicers/filters  
-- Storytelling through visuals  
-- Dashboard layout and visual hierarchy  
-- Practical understanding of data analytics in sports  
+- **Total Goals by Home Teams** – A KPI card showing the cumulative goal count for home teams.
+- **Year and Stage Filters** – Dynamic slicers to filter the data.
+- **Total Goals Scored by Team** – Clustered bar chart comparing home vs away goals team-wise.
+- **Goals Per Match Over the Years** – Line graph comparing average goals from home and away teams over time.
+- **Stadium Attendance Insights** – A map visual showing hotspots where matches were held and crowds gathered.
 
-## 📷 Dashboard Preview
+### 🖼️ Team Performance Dashboard Preview
 
-> *(Insert an image or GIF of the dashboard here once hosted)*
+![Team Performance Dashboard](./img1.png)
 
-## 🚀 How to Use
+---
 
-1. Open the `.pbix` file in Power BI Desktop.  
-2. Refresh data if needed and explore the interactive dashboard.  
-3. Use filters (year, country, stadium) to dynamically update visuals.
+## 📊 Dashboard 2: **FIFA World Cup Overview Dashboard**
 
-## 📌 Folder Structure
+This dashboard offers a macro-level view of FIFA World Cup tournament data. It presents:
+
+- **Total Number of Home Team Goals** – Displays the cumulative home team goal count.
+- **Total Number of Goals** – Total number of goals in the selected year or stage.
+- **Total Matches Played** – Gives an overview of how many matches have been played.
+- **Goals Scored by Year** – Bar chart showing how many goals were scored in each World Cup year.
+- **Top Stadiums with More Than 10 Matches** – Identifies key stadiums that hosted many matches.
+- **Match Results Table** – Shows historical match outcomes by year, home team, and away team with scores.
+- **KPI Cards** – Indicating total goals in a selected year and average goals per match.
+
+### 🖼️ Overview Dashboard Preview
+
+![FIFA Overview Dashboard](./img2.png)
+
+---
+
+## 🧠 Insights Gained
+
+- Brazil and Belgium consistently scored high as home and away teams.
+- Average goals per match have fluctuated over the years, with peaks in certain years like 2014.
+- Stadiums in Mexico (like Estadio Azteca) have hosted the most matches.
+- Attendance and performance patterns vary by region and era.
+
+---
 
 
