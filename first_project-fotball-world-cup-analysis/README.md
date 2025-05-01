@@ -28,7 +28,7 @@ This dashboard provides a deep dive into the performance of home and away teams 
 
 ### 🖼️ Team Performance Dashboard Preview
 
-![Team Performance Dashboard](./img1.png)
+![Team Performance Dashboard](./img2.png)
 
 ---
 
@@ -46,7 +46,7 @@ This dashboard offers a macro-level view of FIFA World Cup tournament data. It p
 
 ### 🖼️ Overview Dashboard Preview
 
-![FIFA Overview Dashboard](./img2.png)
+![FIFA Overview Dashboard](./img1.png)
 
 ---
 
